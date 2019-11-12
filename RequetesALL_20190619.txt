@@ -1,0 +1,178 @@
+--Habitat 1
+("TYPE_COUV" = 'F' OR "TYPE_COUV" = 'M') AND 
+("GR_ESS"  = 'CH' OR "GR_ESS" ='ERFT' OR "GR_ESS" ='FT' OR "GR_ESS" ='FTPB' OR "GR_ESS" ='FTR') AND 
+("DEP_SUR" = '1AY' OR "DEP_SUR" ='1AM' OR "DEP_SUR" ='R1A' OR "DEP_SUR" = 'R') AND 
+("CL_DRAI" = '10' OR "CL_DRAI" = '11' OR "CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31') AND 
+("TYPE_ECO" ='FC10' OR "TYPE_ECO" ='FE22' OR "TYPE_ECO" ='FE52' OR "TYPE_ECO" ='FE60' OR "TYPE_ECO" = 'FC62') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN') 
+
+OR
+
+--Habitat 1_25%
+("TYPE_COUV" = 'F' OR "TYPE_COUV" = 'M') AND 
+("GR_ESS"  = 'CH' OR "GR_ESS" ='ERFT' OR "GR_ESS" ='FT' OR "GR_ESS" ='FTPB') AND 
+("DEP_SUR" ='R1A') AND 
+("CL_DRAI" = '20' OR "CL_DRAI" = '21') AND 
+("TYPE_ECO" ='FC10' OR "TYPE_ECO" ='FE22' OR "TYPE_ECO" = 'FC60') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN') 
+
+OR
+
+--Habitat 2	
+("TYPE_COUV" = 'F' OR "TYPE_COUV" = 'M') AND 
+("GR_ESS"  = 'ERFT' OR "GR_ESS" ='FT' OR "GR_ESS" ='FTPB' OR "GR_ESS" ='FTR' OR "GR_ESS" ='REO' OR "GR_ESS" = 'RFT') AND 
+("DEP_SUR" = '1AY' OR "DEP_SUR" ='1AM' OR "DEP_SUR" ='1A' OR "DEP_SUR" = 'R1A') AND 
+("CL_DRAI" = '10' OR "CL_DRAI" = '11' OR "CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31') AND 
+("TYPE_ECO" ='FC10' OR "TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE22' OR "TYPE_ECO" = 'FE60' OR "TYPE_ECO" = 'RP10') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN') 
+
+OR
+
+--Habitat 2_25%
+("TYPE_COUV" = 'F' OR "TYPE_COUV" = 'M') AND 
+("GR_ESS"  = 'ERFT' OR "GR_ESS" ='FT') AND 
+("DEP_SUR" = '1AY' OR "DEP_SUR" ='1AM' OR "DEP_SUR" ='1A' OR "DEP_SUR" = 'R1A') AND 
+("CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31') AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE22' OR "TYPE_ECO" = 'RP10') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN') 
+
+OR
+
+--Habitat 3
+("TYPE_COUV" = 'F') AND 
+("GR_ESS"  = 'ERFT' OR "GR_ESS" ='FT' OR "GR_ESS" ='ER') AND 
+("DEP_SUR" = '1AY' OR "DEP_SUR" ='1AM' OR "DEP_SUR" ='1A') AND 
+("CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31' OR "CL_DRAI" = '40' OR "CL_DRAI" = '41') AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE22' OR "TYPE_ECO" ='FE32' OR "TYPE_ECO" = 'MJ12') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN')
+
+OR
+
+--Habitat 3_25%
+("TYPE_COUV" = 'F') AND
+("GR_ESS"  = 'ERFT' OR "GR_ESS" ='FT' OR "GR_ESS" ='ER') AND 
+("DEP_SUR" = '1AY' OR "DEP_SUR" ='1A') AND 
+("CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31') AND 
+("TYPE_ECO" ='FE22') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN')
+
+OR
+
+--Habitat 4
+("TYPE_COUV" = 'F') AND
+("GR_ESS"  = 'EO' OR "GR_ESS" ='ERFT' OR "GR_ESS" ='FH' OR "GR_ESS" ='FT') AND 
+("DEP_SUR" = '1AY' OR "DEP_SUR" ='5A' OR "DEP_SUR" ='1A') AND 
+("CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31' OR "CL_DRAI" = '40' OR "CL_DRAI" = '41'  OR "CL_DRAI" = '50' OR "CL_DRAI" = '51') AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE16' OR "TYPE_ECO" ='FE22' OR "TYPE_ECO" = 'FO18') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN')
+
+OR
+
+--Habitat 4_25%
+("TYPE_COUV" = 'F') AND
+("GR_ESS" ='ERFT' OR "GR_ESS" ='FT') AND 
+("DEP_SUR" ='1A') AND 
+("CL_DRAI" = '30' OR "CL_DRAI" = '31' ) AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE22') AND
+("CL_AGE" ='JIN')
+
+OR
+
+--Habitat 5
+("TYPE_COUV" = 'F') AND
+("GR_ESS"  = 'EO' OR "GR_ESS" ='ERFT' OR "GR_ESS" ='FH' OR "GR_ESS" ='FT') AND 
+("DEP_SUR" ='5A' OR "DEP_SUR" ='1A') AND 
+("CL_DRAI" = '30' OR "CL_DRAI" = '31' OR "CL_DRAI" = '40' OR "CL_DRAI" = '41'  OR "CL_DRAI" = '50' OR "CL_DRAI" = '51') AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE15' OR "TYPE_ECO" ='FE16' OR "TYPE_ECO" = 'FE22' OR "TYPE_ECO" = 'FO18') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN' OR "CL_AGE" = '30')
+
+OR
+
+--Habitat 5_25%
+("TYPE_COUV" = 'F') AND
+("GR_ESS"  = 'EO' OR "GR_ESS" ='ERFT' OR "GR_ESS" ='FH' OR "GR_ESS" ='FT') AND 
+("DEP_SUR" ='5A' OR "DEP_SUR" ='1A') AND 
+("CL_DRAI" = '40' OR "CL_DRAI" = '41') AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE15' OR "TYPE_ECO" ='FE16' OR "TYPE_ECO" = 'FO18') AND
+("CL_AGE" ='JIN')
+
+OR
+
+--Habitat 6
+("TYPE_COUV" = 'F') AND
+("GR_ESS"  = 'EO' OR "GR_ESS" ='FH' OR "GR_ESS" ='FT') AND 
+("DEP_SUR" = '1A' OR "DEP_SUR" ='3AN' OR "DEP_SUR" ='5A' OR "DEP_SUR" = '7E' OR "DEP_SUR" ='7T') AND 
+("CL_DRAI" = '40' OR "CL_DRAI" = '41' OR "CL_DRAI" = '50' OR "CL_DRAI" = '51'  OR "CL_DRAI" = '60' OR "CL_DRAI" = '61') AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE16' OR "TYPE_ECO" ='FE22' OR "TYPE_ECO" = 'FO18') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN')
+
+OR
+
+--Habitat 6_25%
+("TYPE_COUV" = 'F') AND
+("GR_ESS" ='FH') AND 
+("DEP_SUR" = '7E' OR "DEP_SUR" ='7T') AND 
+("CL_DRAI" = '50' OR "CL_DRAI" = '51') AND 
+("TYPE_ECO" = 'FO18') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='VIN')
+
+OR
+
+--Habitat 7
+("TYPE_COUV" = 'F' OR "TYPE_COUV" = 'M') AND
+("GR_ESS"  = 'EO' OR "GR_ESS" ='EOR' OR "GR_ESS" ='ERFT' OR "GR_ESS" ='FT' OR "GR_ESS" = 'REO') AND 
+("DEP_SUR" ='1A' OR "DEP_SUR" ='5S' OR "DEP_SUR" ='7T' OR "DEP_SUR" ='7E') AND 
+("CL_DRAI" = '30' OR "CL_DRAI" = '31' OR "CL_DRAI" = '40' OR "CL_DRAI" = '41'  OR "CL_DRAI" = '50' OR "CL_DRAI" = '51' OR "CL_DRAI" = '60' OR "CL_DRAI" = '61') AND 
+("TYPE_ECO" ='FE12' OR "TYPE_ECO" ='FE15' OR "TYPE_ECO" ='FE25' OR "TYPE_ECO" = 'MF18' OR "TYPE_ECO" = 'MJ12' OR "TYPE_ECO" = 'MJ25' OR "TYPE_ECO" = 'MJ28') AND
+("CL_AGE" ='JIN' OR "CL_AGE" ='30' OR "CL_AGE" = '50')
+
+OR
+
+--Habitat 7_25%
+("TYPE_COUV" = 'F' OR "TYPE_COUV" = 'M') AND
+("GR_ESS"  = 'EO') AND 
+("DEP_SUR" ='5S' OR "DEP_SUR" ='7T' OR "DEP_SUR" ='7E') AND 
+("CL_DRAI" = '40' OR "CL_DRAI" = '41') AND 
+("TYPE_ECO" = 'MJ25') AND
+("CL_AGE" = '50')
+
+OR
+
+--Habitat 8
+("TYPE_COUV" = 'F' OR "TYPE_COUV" = 'M' OR "TYPE_COUV" = 'R') AND
+("GR_ESS"  = 'FH' OR "GR_ESS" ='FTPB' OR "GR_ESS" ='CS') AND 
+("DEP_SUR" ='3AN' OR "DEP_SUR" ='R1A') AND 
+("CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31') AND 
+("TYPE_ECO" ='FC10' OR "TYPE_ECO" ='MJ11' OR "TYPE_ECO" ='MJ12' OR "TYPE_ECO" = 'RP10' OR "TYPE_ECO" = 'RS10' OR "TYPE_ECO" = 'RS12') AND
+("CL_AGE" ='JIN' OR "CL_AGE" = 'VIN')
+
+OR
+
+--Habitat 8_25%
+("TYPE_COUV" = 'M' OR "TYPE_COUV" = 'R') AND
+("GR_ESS"  = 'FH' OR "GR_ESS" ='FTPB' OR "GR_ESS" ='CS') AND 
+("DEP_SUR" ='3AN' OR "DEP_SUR" ='R1A') AND 
+("CL_DRAI" = '20' OR "CL_DRAI" = '21' OR "CL_DRAI" = '30' OR "CL_DRAI" = '31') AND 
+("TYPE_ECO" = 'RP10') AND
+("CL_AGE" ='JIN')
+
+OR
+
+--Habitat 9
+("TYPE_COUV" = 'M' OR "TYPE_COUV" = 'R') AND
+("GR_ESS"  = 'CC' OR "GR_ESS" ='CE' OR "GR_ESS" ='CS' OR "GR_ESS" ='RC' OR "GR_ESS" ='RFH') AND 
+("DEP_SUR" ='1A' OR "DEP_SUR" ='7E' OR "DEP_SUR" ='7T') AND 
+("CL_DRAI" = '30' OR "CL_DRAI" = '31' OR "CL_DRAI" = '40' OR "CL_DRAI" = '41' OR "CL_DRAI" = '50' OR "CL_DRAI" = '51' OR "CL_DRAI" = '60' OR "CL_DRAI" = '61') AND 
+("TYPE_ECO" ='MS13' OR "TYPE_ECO" ='RC38' OR "TYPE_ECO" ='RS18') AND
+("CL_AGE" ='JIN' OR "CL_AGE" = '50' OR "CL_AGE" = 'VIN')
+
+OR
+
+--Habitat 9_25%
+("TYPE_COUV" = 'M' OR "TYPE_COUV" = 'R') AND
+("GR_ESS"  = 'CC') AND 
+("DEP_SUR" ='1A' OR "DEP_SUR" ='7E' OR "DEP_SUR" ='7T') AND 
+("CL_DRAI" = '30' OR "CL_DRAI" = '31' OR "CL_DRAI" = '60' OR "CL_DRAI" = '61') AND 
+("TYPE_ECO" ='RC38') AND
+("CL_AGE" = 'VIN')
+
